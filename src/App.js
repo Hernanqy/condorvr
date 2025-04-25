@@ -18,6 +18,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <h1 className="text-3xl font-bold underline bg-black text-cyan-600
+      ">
+      Hello world!
+    </h1>
     </div>
   );
 }

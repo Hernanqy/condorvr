@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
+import reportWebVitals from './reportWebVitals';
+import Hero from "./Hero"
+import Navb from "./Navb"
+import LightHeroA from './LightHeroA';
+import LightStepC from "./LightStepC";
+import LightGalleryA from "./LightGalleryA";
+import LightFooterD from "./LightFooterD"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navb/>
+   <Hero />
+   <LightHeroA/>
+   <LightStepC/>
+   <LightGalleryA/>
+   <LightFooterD/>
   </React.StrictMode>
 );
 
